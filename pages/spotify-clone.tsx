@@ -165,7 +165,7 @@ const buttonsVariants={
     </div>
 
     </div>
-   <div className="flex flex-col gap-2 px-2 text-white">
+   {/* <div className="flex flex-col gap-2 px-2 text-white">
                  <p  className="text-2xl font-semibold">
           Technologies used
         </p>
@@ -174,7 +174,7 @@ const buttonsVariants={
           <MeshCanvas backgroundColour={item.colour} position={item.position} techName={item.name} texturePath={item.path}/>
           </div>))}
           </div>
-        </div>
+        </div> */}
   </div>
   )
 }

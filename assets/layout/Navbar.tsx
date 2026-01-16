@@ -20,17 +20,17 @@ function Navbar({hamburgerOpen, setHamburgerOpen}:Props) {
   }
 
   return (
-<div className="navbar sticky top-0 left-0 z-50 bg-black/90">
+<div className="navbar sticky top-0 left-0 z-50 bg-purple-700 p-4">
   <div className="flex-1">
-    <Link href={'/'} className="btn text-white btn-ghost text-xl">Luftjunkie_19</Link>
+    <Link href={'/'} className="btn text-white btn-ghost text-xl">Luftie The Anonymous</Link>
   </div>
 
   <button onClick={handleHamburger} className='lg:hidden mx-6 cursor-pointer text-white' ><GiHamburgerMenu size={24}/></button>
- <div className="lg:flex sm:hidden gap-6 mx-4 text-4xl">
-        <Link className='text-white' href={pathname === '/' ? '#techs' : '/'}><GrTechnology /></Link>
-  <Link className='text-white' href={pathname === '/' ? '#projects' : '/'}><GoProject/></Link>
-  <Link className='text-white' href={pathname === '/' ? '#languages' : '/'}><IoLanguageSharp/></Link>
-  <Link className='text-white' href={pathname === '/' ? '#contact' : '/'}><RiContactsBookFill/></Link>
+ <div className="lg:flex sm:hidden gap-6 mx-4 text-lg">
+        <Link className='text-white font-semibold' href={pathname === '/' ? '#techs' : '/'}>TechStack</Link>
+  <Link className='text-white font-semibold' scroll href={pathname === '/' ? '#projects' : '/'}>Projects</Link>
+  <Link className='text-white font-semibold' scroll href={pathname === '/' ? '#languages' : '/'}>Languages</Link>
+  <Link className='text-white font-semibold' scroll href={pathname === '/' ? '#contact' : '/'}>Contact</Link>
  </div>
 
 </div>

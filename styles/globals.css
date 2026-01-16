@@ -84,3 +84,7 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .active-bullet {
+    background-color: rgb(151, 39, 255) !important;
+  }
