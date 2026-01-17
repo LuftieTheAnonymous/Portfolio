@@ -1,10 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { GoProject } from 'react-icons/go';
-import { GrTechnology } from 'react-icons/gr';
-import { IoLanguageSharp } from 'react-icons/io5';
-import { RiContactsBookFill } from 'react-icons/ri';
 
 type Props={
   hamburgerOpen: boolean;
